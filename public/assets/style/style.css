@@ -3,8 +3,38 @@
   line-height: 1.5;
   font-weight: 500;
 
+  background-color: #1c212c;
+  color: #F48840;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+body #content {
+  width: 75%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#content #bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
